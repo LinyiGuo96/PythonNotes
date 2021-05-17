@@ -1,0 +1,55 @@
+# python philosophy
+
+* beautiful is better than ugly
+* explicit is better than implicit
+* simple is better than complex
+* complex is better than complicated
+* readability counts
+
+
+# Python3 
+
+* Not backward compatible
+* Everything is an object
+* Print is function
+* One integer type
+* All text is now Unicode
+
+
+# Shebang Line
+
+`#!` for unix based system.  It will be recognized for Unix system and ignored in Windows.
+
+
+# operators
+
+==, != ......
+`is` and `is not`
++, -, *, /, // (integer division), %(remainder), **(exponent),
+Bitwise(for binary system instead of logical) operators: &, |, ^, <<, >> 
+Comparison: !=, ==, ...
+Boolean: and, or, not, in , not in , is , not is....
+
+# data structure
+
+list = [...] mutable, can be edited
+tuple = (...) immutable
+dict = {"a":1, ... , }
+set = {1,12,3,...}
+
+we can store anything in some data struture.
+
+
+# Read files
+
+os.getcwd() # to get the current directory
+
+eg:
+f = open("demofile.txt", "r")
+f = open("D:\\myfiles\welcome.txt", "r")
+
+
+# Line Ending
+
+x = 'String \n'
+
